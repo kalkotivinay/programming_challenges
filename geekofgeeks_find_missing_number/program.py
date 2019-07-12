@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # getMissingNo takes list as argument
 def getMissingNo(A):
     n = len(A)
@@ -8,11 +7,7 @@ def getMissingNo(A):
 
 # Driver program to test above function
 rinput = raw_input()
-ilist = rintput.split(' ')
-miss = getMissingNo(ilist)
+ilist = rinput.split(' ')
+miss = getMissingNo(list(map(int, ilist)))
 print(miss)
-=======
-print("hello world")
 
-
->>>>>>> ba5cd70c95823a79c348b6e05e112385e6412df9

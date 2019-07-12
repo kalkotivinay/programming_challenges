@@ -1,1 +1,3 @@
 # programming_challenges
+
+This repository contains code for all the programming challenges that I solved from HackerRank, GeekOfGeeks (and others) ... 

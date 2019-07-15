@@ -7,6 +7,7 @@ def getMissingNo(A):
 
 # Driver program to test above function
 rinput = raw_input()
+
 ilist = rinput.split(' ')
 miss = getMissingNo(list(map(int, ilist)))
 print(miss)

@@ -1,0 +1,12 @@
+
+https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
+
+Find the largest pair sum in an unsorted array
+
+Given an unsorted of distinct integers, find the largest pair sum in it. For example, the largest pair sum in {12, 34, 10, 6, 40} is 74.
+
+Expected Time Complexity: O(n) [Only one traversal of array is allowed]
+
+This problem mainly boils down to finding the largest and second largest element in array. We can find the largest and second largest in O(n) time by traversing array once.
+
+Another solution is to sort the list using O(nLogn) time complexity in descending order and then take the first 2 elements.

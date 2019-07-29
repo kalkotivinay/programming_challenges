@@ -44,4 +44,8 @@ Traverse the array. While traversing, use the absolute value of every element as
 If something is already marked negative then this is the repeating element. To find missing, traverse the array again and look for a positive value.
 
 Time Complexity: O(n)
+<<<<<<< HEAD
 Auxiliary Complexity: O(1)
+=======
+Space Complexity: O(1)
+>>>>>>> febc76a5be676104b10b50dc3852a67d7c504289

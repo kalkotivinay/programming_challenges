@@ -1,0 +1,29 @@
+https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/
+
+Find common elements in three sorted arrays
+
+Given three arrays sorted in non-decreasing order, print all common elements in these arrays.
+Examples:
+
+Input:
+ar1[] = {1, 5, 10, 20, 40, 80}
+ar2[] = {6, 7, 20, 80, 100}
+ar3[] = {3, 4, 15, 20, 30, 70, 80, 120}
+Output: 20, 80
+
+Input:
+ar1[] = {1, 5, 5}
+ar2[] = {3, 4, 5, 5, 10}
+ar3[] = {5, 5, 10, 20}
+Output: 5, 5
+
+
+METHOD 1:
+
+A simple solution is to first find intersection of two arrays and store the intersection in a temporary array, then find the intersection of third array and temporary array.
+Time complexity of this solution is O(n1 + n2 + n3) where n1, n2 and n3 are sizes of ar1[], ar2[] and ar3[] respectively.
+
+METHOD 2:
+
+The above solution requires extra space and two loops, we can find the common elements using a single loop and without extra space.
+The idea is similar to intersection of two arrays. Like two arrays loop, we run a loop and traverse three arrays.

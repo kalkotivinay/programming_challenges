@@ -1,7 +1,7 @@
 # Python3 code to Find the repeating
 # and the missing elements
 
-def printTwoElements( arr, size):
+def printTwoElements(arr, size):
     print(arr)
     for i in range(size):
         print(abs(arr[i])-1, arr[abs(arr[i])-1])
@@ -17,6 +17,7 @@ def printTwoElements( arr, size):
     print(arr)
 
 # Driver program to test above function */
-arr = [7, 3, 4, 4, 6, 5, 2]
+# arr = [7, 3, 4, 4, 6, 5, 2]
+arr = [1, 2, 3, 4, 4, 6, 7, 8, 9, 10]
 n = len(arr)
 printTwoElements(arr, n)
